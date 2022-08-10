@@ -25,6 +25,7 @@ header{
     align-items: center;
 }
 .zap{
+    height: 70px;
     justify-content: end;
     text-align: right;
 }
