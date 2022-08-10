@@ -25,7 +25,8 @@ header{
     align-items: center;
 }
 .zap{
-    position: absolute;
+    justify-content: end;
+    text-align: right;
 }
 #logozap{
     height: 70px;
