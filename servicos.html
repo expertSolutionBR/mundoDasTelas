@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mundo das Telas - Serviços</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/servicos.css">
+    <link rel="stylesheet" href="./assets/css/responsividade.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href="home.html"><img class="logoimg" id="logo" src="./assets/images/LOGO.png"></a>
+                <h1>Mundo das Telas</h1>            
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li class="active" id="home"><a href="#banner">HOME</a></li>
+                        <li id="servicos"><a href="#areaservicos">SERVIÇOS</a></li>
+                        <li id="sobre"><a href="#areasobre">SOBRE</a></li>
+                        <li id="contato"><a href="#areacontato">CONTATO</a></li>
+                    </ul>
+                    <div class="menu-icon">
+                      <img src="./assets/images/menua.png">
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <a href="https://wa.me/5579999914351" target="_blank"><img class="logoimg" id="logozap" src="./assets/images/logoZap.png"></a>  
+
+    </header>
+    <main>
+        
+    </main>
+    <footer>
+          <section class="informacoes">
+              </div class="contatos">
+                <p>Metalúrgica Mundo das Telas</p>
+                <p>Atendimento: (79) 99610-4235</p>
+                <p>E-mail : atendimento@metalurgicatelas.com.br</p>
+                <p>Horário de atendimento:</p>
+                <p>Seg a sex (8:00 às 18:00)</p>
+              </div>
+          </section>
+          <section class="noticias">
+            <form class="formcontato" action="">
+              <p>Cadastre seu e-mail para receber notícias e novidades</p>
+              <div class="form">
+                <input class="inputs" type="email" name="email" id="email" placeholder="Digite seu e-mail" data-rules="required"/>
+                <input class="botaocad" id="botaocad" type="submit" value="Cadastrar">
+              </div>
+            </form>
+        </section>
+          <section class="redessociais">
+            <div class="medias">
+              <p>Siga nossas redes sociais</p>
+              <a href="https://www.instagram.com/expertsolutionse" target="_blank"> <i class="fa fa-instagram"></i> </a>
+              <a href="#"> <i class="fa fa-facebook"></i> </a>
+              <a href="#"> <i class="fa fa-twitter"></i> </a>
+              <a href="#"> <i class="fa fa-youtube-play"></i> </a>
+              <a href="https://wa.me/5579999914351" target="_blank"> <i class="fa fa-whatsapp"></i> </a>
+            </div>    
+          </section> 
+    </footer>
+    <div class="faixa">
+      <p>Site Desenvolvido por Expert Solution - 2022 - Contato: (79) 9 9991-4351</p>
+    </div>  
+    <script src="./assets/scripts/script.js"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('li').on('click',function(){
+          $(this).siblings().removeClass('active');
+          $(this).addClass('active');
+        })
+      })
+    </script>
+</body>
+</html>

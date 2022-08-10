@@ -1,0 +1,108 @@
+@media (max-width:970px) {
+    nav .menu-icon{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        width: 40%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        transform: translateX(-100%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        transition: 0.3s ease-in;
+        background-color: #ccc;
+    }
+    nav ul.active{
+        transform: translateX(0);
+    }
+    nav ul li{
+        padding: 10px;
+    }
+    nav ul li a{
+        font-size: 18px;
+        color: white;
+    }
+    .banner .sliders{
+        width: 100vw;
+        height: 100%;
+        padding-top: 50px;
+    }
+    .banner h1{
+        font-size: 30px;
+    }
+    .sobre{
+        display: inline;
+        border: none;
+    }
+    .missao, .visao, .valores{
+        padding: 10px;
+        align-items: top;
+
+    }
+    footer{
+        display: inline;
+        background-color: #ccc;
+    }
+    .informacoes, .contatos, .redessociais, .noticias{
+        flex: none;
+        margin: 0;
+        padding: 10px;
+        text-align: center;
+    }
+    #logozap{
+        margin: 0;
+        animation: none;
+        margin-left: 85%;
+        margin-top: 93%;
+        animation: anizap2 2s infinite;
+    }
+    @keyframes anizap2 {
+        0.1%{
+            margin-top: 93%;
+        }
+        50%{
+            margin-top: 92%;
+        }
+        100% {margin-top: 93%;
+        }
+    }
+    .menu-icon{
+        padding-right: 10px;
+    }
+    .logo{
+        padding-left: 10px;
+    }
+    .servicesrow{
+        display: inline;
+        color: #ccc;
+        align-items: top;
+        text-align: center;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-bottom: 20px;
+    }
+    .detalhes{
+        display: inline;
+        text-align: center;
+    }
+    .descricao{
+        text-align: center;
+    }
+    .detalhes h1{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .detalhes p{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .contato{
+        display: flex;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}

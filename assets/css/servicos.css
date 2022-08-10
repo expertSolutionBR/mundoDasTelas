@@ -1,0 +1,101 @@
+.servicesrow{
+    display: flex;
+    color: #29849f;
+    width: 100vw;
+    align-items: top;
+    text-align: center;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+
+}
+.servicesrow img{
+    height: 300px;
+    width: 300px;
+    padding-bottom: 10px;
+    color: #29849f;
+    align-items: center;
+}
+.service1, .service2, .service3{
+    padding: 20px;
+}
+.servicesrow p{
+    text-align: center;
+    align-items: center;
+}
+.detalhes{
+    display: flex;
+    color: #29849f;
+    align-items: top;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.detalhes img{
+    height: 500px;
+    width: 1000px;
+}
+.detalhes .descricao{
+    text-align: left;
+}
+.detalhes h1{
+    margin-bottom: 20px;
+}
+.detalhes p{
+    text-align: justify;
+}
+.pass{
+    align-items: center;
+    display: flex;
+}
+.botoes{
+    height: 100px;
+    width: 100px;
+}
+#anterior, #proximo{
+    height: 50px;
+    width: 25px;
+    margin: 20px;
+}
+.botoes:hover{
+    cursor: pointer;
+}
+.areaservico{
+    height: 500px;
+    width: 1000px;
+    overflow: hidden;
+}
+.areaservico .carrossel{
+    width: 1000px;
+    height: 100%;
+}
+.areaservico .container{
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+    width: 1000px;
+    height: 100%;
+    display: flex;
+}
+
+.textoservico{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50px;
+    padding: 30px;
+    background-color:  rgb(41, 132, 159, 0.95);
+}
+
+#titulo1, #titulo2, #titulo3{
+    color: #fff;
+    text-align: left;
+}
+#descricao1, #descricao2, #descricao3{
+    color: #fff;
+}
+
+
